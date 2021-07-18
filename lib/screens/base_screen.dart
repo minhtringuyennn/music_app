@@ -50,32 +50,31 @@ class _BaseScreenState extends State<BaseScreen> {
             type: BottomNavigationBarType.fixed,
             selectedItemColor: primeOrange,
             unselectedItemColor: lighterGrey,
-            
             items: const [
               BottomNavigationBarItem(
                 icon: Padding(
                   padding: EdgeInsets.all(8),
-                  child: Icon(LineIcons.home, size: 32),
+                  child: Icon(LineIcons.home, size: 28),
                 ),
                 label: "Trang chủ",
               ),
               BottomNavigationBarItem(
                   icon: Padding(
                     padding: EdgeInsets.all(8),
-                    child: Icon(LineIcons.heart, size: 32),
+                    child: Icon(LineIcons.heart, size: 28),
                   ),
                   label: "Bộ sưu tập"),
               BottomNavigationBarItem(
                 icon: Padding(
                   padding: EdgeInsets.all(8),
-                  child: Icon(LineIcons.photoVideo, size: 32),
+                  child: Icon(LineIcons.photoVideo, size: 28),
                 ),
                 label: "Video",
               ),
               BottomNavigationBarItem(
                 icon: Padding(
                   padding: EdgeInsets.all(8),
-                  child: Icon(LineIcons.search, size: 32),
+                  child: Icon(LineIcons.search, size: 28),
                 ),
                 label: "Tìm kiếm",
               ),
